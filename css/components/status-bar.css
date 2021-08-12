@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   padding-top: 4px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .status-bar__column {
@@ -28,20 +31,4 @@
 
 .status-bar__column .fa-bolt {
   margin: 0 5px;
-}
-
-header {
-  padding: 40px 0;
-}
-
-header h1 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 150%;
-  text-align: center;
-}
-
-header p {
-  font-size: 14px;
-  text-align: center;
 }
