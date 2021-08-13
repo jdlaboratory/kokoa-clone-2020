@@ -5,15 +5,17 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
-
-/* Navigation */
-@import "components/nav-bar.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   letter-spacing: -0.5px;
+  color: #2e363e;
 }
