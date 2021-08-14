@@ -1,6 +1,7 @@
 .user-component,
 .user-component__column:first-child {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -21,7 +22,7 @@
 }
 
 .friends-screen__channel-header {
-  border-top: 1px solid #eee;
+  border-top: var(--main-border);
   margin-top: 24px;
   padding-top: 12px;
   padding-bottom: 24px;
@@ -34,7 +35,13 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-screen .user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .user-component__avatar {
@@ -53,4 +60,9 @@
   width: 60px;
   height: 60px;
   border-radius: 18px;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
