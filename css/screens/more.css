@@ -4,7 +4,7 @@
 
 .more-suggestion__icons {
   display: flex;
-  gap: 40px;
+  gap: 24px;
   padding-top: 16px;
 }
 
@@ -24,8 +24,8 @@
 }
 
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   margin-bottom: 12px;
   background-color: var(--yellow);
   border-radius: 10px;
@@ -36,4 +36,5 @@
 }
 
 .more-suggestions__icon-text {
+  font-size: 14px;
 }

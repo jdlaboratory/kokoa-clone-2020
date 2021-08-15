@@ -25,72 +25,43 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">More</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <!-- <span><i class="far fa-comment-dots fa-lg"></i></span> -->
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-lg"></i>
         </div>
     </header>
 
 
-    <main class="main-screen more-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar  user-component__avatar--xl" src="https://avatars.githubusercontent.com/u/88308194?v=4" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">JD</h4>
-                    <h6 class="user-component__subtitle">010-1234-3245</h6>
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__seting-column">
+                    <i class="fas fa-bullhorn fa-lg"></i>
+                    <span>Notices</span>
                 </div>
-            </div>
-            <div class="user-component__column">
-                <i class="far fa-comment-alt fa-2x"></i>
-            </div>
-        </div>
-
-        <div class="icon-row">
-            <div class="icon-row__icon">
-                  <i class="far fa-calendar fa-4x"></i>
-                  <span>Calendar</span>
-              </div>
-            <div class="icon-row__icon">
-                <i class="far fa-smile-beam fa-4x"></i>
-                <span>Emoticons</span></div>
-            <div class="icon-row__icon">
-                <i class="fas fa-paint-roller fa-4x"></i>
-                <span>Themes</span></div>
-            <div class="icon-row__icon">
-                <i class="fas fa-invoice-dollor fa-4x"></i>
-                <span>Account</span></div>
-        </div>
-
-        <div class="more-suggestion">
-            <h4 class="more-suggestion__title">Suggestions</h4>
-            <div class="more-suggestion__icons">
-                <div class="more-suggestions__icon">
-                    <div class="more-suggestions__icon-image">
-                        <i class="fas fa-quote-right fa-2x"></i>
-                    </div>
-                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__seting-column">
+                    <i class="fas fa-flask fa-lg"></i>
+                    <span>Kokoa Lab</span>
                 </div>
-
-                <div class="more-suggestions__icon">
-                    <div class="more-suggestions__icon-image">
-                        <i class="fas fa-quote-right fa-2x"></i>
-                    </div>
-                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__seting-column">
+                    <i class="fas fa-info-circle fa-lg"></i>
+                    <span>Version</span>
                 </div>
-
-                <div class="more-suggestions__icon">
-                    <div class="more-suggestions__icon-image">
-                        <i class="fas fa-quote-right fa-2x"></i>
-                    </div>
-                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+                <div class="settings__seting-column">
+                    Latest Version
                 </div>
-            </div>
-        </div>
+            </li>
+        </ul>
 
     </main>
 
@@ -125,6 +96,9 @@
             </li>
         </ul>
     </nav>
+    <div id="no-mobile">
+        <span>Your screen is too big.</span>
+    </div>
 
     <script src="https://kit.fontawesome.com/e1ebb68418.js" crossorigin="anonymous"></script>
 

@@ -98,6 +98,27 @@
   right: 8px;
   font-size: 13px;
 }
+
 .open-post__like span {
   margin-left: 4px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: #fff;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  100% {
+    color: #fff;
+    transform: none;
+  }
+}
+
+.open-post__like:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
