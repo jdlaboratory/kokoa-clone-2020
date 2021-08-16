@@ -1,6 +1,6 @@
 .nav {
   background-color: #f9f9fa;
-  padding: 20px 50px;
+  padding: 20px 40px;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
   position: fixed;
   bottom: 0;
@@ -33,6 +33,7 @@
   animation: appear-btn 0.4s ease-in-out forwards;
   animation-delay: 0.2s;
   opacity: 0;
+  font-size: 13px;
 }
 
 .nav__btn:nth-child(2) {
@@ -68,4 +69,8 @@
   animation: noti-animation 1s ease-in-out infinite;
 }
 
-.nav__
+.nav__alarm {
+  position: absolute;
+  right: -4px;
+  top: -12px;
+}

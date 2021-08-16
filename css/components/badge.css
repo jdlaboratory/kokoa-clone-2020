@@ -10,3 +10,13 @@
   text-align: center;
   font-size: 12px;
 }
+
+.badge-sm {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

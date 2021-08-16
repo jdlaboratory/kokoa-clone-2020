@@ -1,10 +1,10 @@
 .more-screen .icon-row {
-  margin-top: 24px;
+  margin-top: 32px;
 }
 
 .more-suggestion__icons {
   display: flex;
-  gap: 24px;
+  gap: 12px;
   padding-top: 16px;
 }
 
@@ -24,17 +24,28 @@
 }
 
 .more-suggestions__icon-image {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   margin-bottom: 12px;
   background-color: var(--yellow);
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
 }
+.more-suggestions__icon-image > i {
+  font-size: 24px;
+}
 
 .more-suggestions__icon-text {
   font-size: 14px;
+}
+
+.fa-color-black {
+  color: black;
+}
+
+.fa-color-pink {
+  color: rgb(247, 20, 152);
 }

@@ -1,3 +1,7 @@
+.settings-list {
+  padding: 0 24px;
+}
+
 .settings__setting {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -9,10 +13,40 @@
 }
 
 .settings__setting i {
-  margin-right: 12px;
+  margin-right: 16px;
   font-size: 24px;
+}
+.settings__seting-column {
+  display: flex;
+  align-items: center;
 }
 
 .settings__seting-column:nth-child(2) {
   opacity: 0.5;
+}
+
+.settings__setting:last-child {
+  border-bottom: 0;
+}
+
+.divider-horizontal {
+  margin: 32px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e2e2e2;
+}
+
+#setting-screen {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.settings-alarm {
+  margin-bottom: 1px;
+  margin-left: 6px;
+  font-size: 10px;
+  color: white;
+  background-color: tomato;
+  padding: 3px 5px 4px 5px;
+  border-radius: 50%;
 }

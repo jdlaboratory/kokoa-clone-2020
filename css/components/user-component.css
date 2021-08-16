@@ -16,9 +16,11 @@
 }
 
 .user-component__subtitle {
-  margin-top: 4px;
+  margin-top: 12px;
   opacity: 0.5;
   font-size: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .friends-screen__channel-header {
@@ -28,6 +30,7 @@
   padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .friends-screen__channel-header i {
@@ -35,7 +38,7 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .main-screen .user-component__column:last-child {
@@ -63,6 +66,20 @@
 }
 
 .user-component__time {
-  margin-bottom: 10px;
+  font-size: 13px;
+  margin-bottom: 8px;
   display: block;
+}
+
+.alert-circle-sm {
+  color: red;
+  height: 14px;
+  width: 14px;
+  border: 2px solid red;
+  margin-left: 8px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 13.5px;
 }

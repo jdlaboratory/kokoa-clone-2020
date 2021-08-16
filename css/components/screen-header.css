@@ -9,11 +9,22 @@
 
 .screen-header__title {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-.screen-header__icons span {
+.screen-header__icons > span {
   margin-left: 20px;
+  position: relative;
+}
+
+.screen-header__icons > .nav__alarm {
+  top: ;
+}
+
+.screen-header__alarm {
+  position: absolute;
+  right: -6px;
+  top: -6px;
 }
 
 @keyframes spin {
